@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~primeflex/primeflex.min.css";
+@import "~primeng/resources/themes/saga-blue/theme.css";
+@import "~primeng/resources/primeng.min.css";
+@import "~primeicons/primeicons.css";
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer-form-container .p-input-icon-left {
+    width: 100%;
+}
+
+.outer-form-container input {
+    width: 100%;
+}
+
+.outer-form-container .p-card {
+    background: rgba(28,37,65,0.2);
+}
+
+.button-block {
+    width: 100%;
+}
+
+.outer-links {
+    font-size: 10pt;
+    text-decoration: none;
+    color: #898989;
+}
+
+.outer-links:hover {
+    font-size: 10pt;
+    text-decoration: none;
+    color: #1C2541;
+}
